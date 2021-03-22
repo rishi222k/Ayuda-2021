@@ -23,12 +23,12 @@ const Nav = () => {
             </div>
             <div className={`menu ${toggle ? 'menu-active':''}`}>
                 <div className="menu-links">
-                    <div className="menu-link"><a href=".">Home</a></div>
-                    <div className="menu-link"><a href=".">Our Story</a></div>
-                    <div className="menu-link"><a href=".">Initiatives</a></div>
-                    <div className="menu-link"><a href=".">Events</a></div>
-                    <div className="menu-link"><a href=".">Board</a></div>
-                    <div className="menu-link"><a href=".">Contact Us</a></div>
+                    <div className="menu-link"><a href="." onClick={Click}>Home</a></div>
+                    <div className="menu-link"><a href="." onClick={Click}>Our Story</a></div>
+                    <div className="menu-link"><a href="." onClick={Click}>Initiatives</a></div>
+                    <div className="menu-link"><a href="." onClick={Click}>Events</a></div>
+                    <div className="menu-link"><a href="." onClick={Click}>Board</a></div>
+                    <div className="menu-link"><a href="." onClick={Click}>Contact Us</a></div>
                 </div>
             </div>
         </nav>

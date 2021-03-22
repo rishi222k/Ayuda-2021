@@ -56,7 +56,7 @@ nav{
             stroke-width: 6.5;
           }
           .opened .line{
-              stroke: white;
+              stroke: rgba(255, 255, 255, 0.863);
           }
     }
     .menu{
@@ -75,8 +75,12 @@ nav{
         transform: translateX(0%);
     }
     .menu-links{
+        display: flex;
+        height: 85vh;
+        flex-direction: column;
+        justify-content: space-around;
         margin-left:9em ;
-        margin-top: 3em;
+        margin-top: 4em;
         a{
             font-family: Bnoodle;
             font-size: 4em;
@@ -88,9 +92,7 @@ nav{
             font-size: 4.5em;
             color: #ffd000d3;
         }
-        .menu-link{
-            margin-bottom: 0.9em;
-        }
+        
     }
     
     
