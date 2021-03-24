@@ -1,0 +1,85 @@
+.Landing{
+    img{
+        width: 100%;
+    }
+    .titles{
+        margin-left: 3.5em;
+        margin-top: 2em;
+    }
+    .caption1{
+        display: flex;
+        align-items: center;
+        margin-top: 10vh;
+        hr{
+            width: 4em; 
+            height: 2px;
+            margin-right: 0.5em;
+            border: 1.5px solid #0034A5;
+            background-color: #0034A5;
+        }
+        h4{
+            font-family: raleway;
+            color: #0034A5;
+        }
+        
+    }
+    .caption2{
+        span{
+            color: #FFCF00;
+        }
+        p{
+            font-family: BNoodle;
+            font-size: 3.3em;
+        }
+    }
+    .caption3{
+        p{
+           
+            font-family: raleway;
+            font-size: 1.1em;
+            font-weight: 500;
+        }
+    }
+    .btns{
+        margin-top: 4em;
+        margin-bottom: 3em;
+        .Learn{
+            padding: 0.8em 2em;
+            border: 3px solid #0034A5;
+            text-decoration: none;
+            color: #0034A5;
+            font-family: raleway;
+            font-weight: 600;
+            font-size: 1.1em;
+        }
+        .Learn:hover{
+            background-color: #0034A5;
+            color: white;
+            
+        }
+        .touch{
+            margin-left: 2em;
+            padding: 0.8em 2em;
+            text-decoration: none;
+            background-color: #FFCF00;
+            border: #FFCF00 3px solid;
+            border-radius: 5px;
+            color: white;
+            font-family: raleway;
+            font-weight: 600;
+            font-size: 1.1em;
+
+        }
+        .touch:hover{
+            background-color: white;
+            color: #FFCF00;
+        }
+        
+    }
+    .social{
+        width: 4em;
+        transform: translate(900%,-50%);
+        display: flex;
+        flex-direction: column;
+    }
+}

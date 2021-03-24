@@ -1,12 +1,12 @@
 import React from 'react'
 import "../../node_modules/bootstrap/dist/css/bootstrap-grid.css"
-import Nav from '../Components/Nav'
+import Landing from '../Components/Landing'
 import '../Styles/Home.scss'
 
 const Home = () => {
     return (
         <div>
-            <Nav/>
+            <Landing/>
         </div>
     )
 }
