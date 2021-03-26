@@ -1,0 +1,17 @@
+.Initiatives{
+    height: 90vh;
+    .title{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    h1{
+        font-family: raleway;
+        font-weight: 700;
+        font-size: 8em;
+        color: #CECECE;
+        padding-bottom: 1em;
+        white-space: nowrap;
+        transform: translateX(30px);
+        -webkit-transform: translateX(30px);
+    }
+}
