@@ -39,7 +39,7 @@
     }
 }
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 1023px){
     .Story{
         h1{
             padding-bottom: 1.2em;
@@ -62,7 +62,6 @@
             display: block;
             margin-left: auto;
             margin-right: auto;
-            
             width: 80%;
         }
         .order1{
@@ -74,5 +73,35 @@
         .row .col-lg-6:nth-child(2){
             display: block;
         }
+    }
+}
+
+@media only screen 
+and (min-width: 768px)
+and (max-width: 1023px){
+
+    .Story{
+        h1{
+            padding-bottom: 1.2em;
+            font-size: 7em;
+            transform: translateX(-25px);
+        }
+    }
+}
+
+@media only screen and (max-width: 350px){
+
+    h1{
+        padding-bottom: 1.2em;
+        padding-top: 0% !important;
+        font-size: 3.5em !important;
+        transform: translateX(-25px);
+    }
+    img{
+        width: 16em !important;
+    }
+    .storycont{
+        width: 90% !important;
+        font-size: 1em !important;
     }
 }

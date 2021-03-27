@@ -178,10 +178,15 @@ and (max-width: 1023px){
         transform: translate(0%,-50%);
         margin-top: 3em;
         width: 100%;
+        margin-bottom: 4em;
         .icon{
             margin-left: 0.7em;
             margin-right: 0.7em;
         }
+    }
+
+    .btns{
+        margin-bottom: 5em;
     }
 }
 }
@@ -233,4 +238,22 @@ and (max-width: 1023px){
         }
     }
 }
+}
+
+@media only screen and (max-width: 350px){
+    .Landing{
+        .titles{
+            margin-left: 1em;
+        }
+    }
+    .btns{
+        .Learn{
+            padding: 0.7em 1.2em !important;
+            font-size: 1em;
+        }
+        .touch{
+            margin-left: 0.4em !important;
+            padding: 0.7em 1.2em !important;
+        }
+    }
 }
