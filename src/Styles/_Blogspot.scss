@@ -13,20 +13,24 @@
         opacity: 0.44;
         padding-bottom: 0.4em;
         white-space: nowrap;
-        transform: translateX(30px);
-        -webkit-transform: translateX(30px);
+        transform: translateX(40px);
+        -webkit-transform: translateX(40px);
     }
     .scrollmenu {
         overflow: auto;
-        width: 94%;
-        margin-left: 6%;
+        width: 100%;
         padding: 2em;
         white-space: nowrap;
         padding-bottom: 4em;
+        padding-left: 0%;
       }
+    .card:first-child {
+      margin-left: 9%;
+    }
     .card{
       display: inline-flex;
       flex-direction: column;
+      justify-content: space-between;
       background: linear-gradient(-45deg, rgba(255, 255, 255, 0), rgba(255,255,255,0.3));
       box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.13);
       border-radius: 10px;
@@ -50,11 +54,12 @@
       }
       p{
         color: white;
-        line-height: 1.4;
+        line-height: 1.5;
         margin-bottom: 2em;
         font-family: raleway;
         font-weight: 500;
         white-space: normal;
+        font-size: 0.95em;
       }
       a{
           padding: 0.8em 2em;
@@ -75,4 +80,19 @@
        display: none;
       }
     
+}
+
+@media only screen
+and (max-width: 767px){
+  .Blogspot{
+    background-position: center;
+    h1{
+      font-size: 4em;
+      transform: translateX(18px);
+      -webkit-transform: translateX(18px);
+    }
+    .card:hover{
+      transform: translate3D(0,-1px,0) scale(1.0);
+    }
+  }
 }
