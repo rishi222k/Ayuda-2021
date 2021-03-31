@@ -47,6 +47,10 @@
 
 @media only screen and (max-width: 767px){
     .Gallery{
+        background-image: url(../Images/Gallerybg.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment:scroll;
         h1{
             padding-top: 1em;
             font-size: 4.5em;
