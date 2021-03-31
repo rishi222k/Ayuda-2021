@@ -89,18 +89,20 @@ and (max-width: 1023px){
 }
 
 @media only screen and (max-width: 350px){
-
-    h1{
-        padding-bottom: 1.2em;
-        padding-top: 0% !important;
-        font-size: 3.5em !important;
-        transform: translateX(-25px);
+    .Story{
+        h1{
+            padding-bottom: 1.2em;
+            padding-top: 0% !important;
+            font-size: 3.5em !important;
+            transform: translateX(-25px);
+        }
+        img{
+            width: 16em !important;
+        }
+        .storycont{
+            width: 90% !important;
+            font-size: 1em !important;
+        }
     }
-    img{
-        width: 16em !important;
-    }
-    .storycont{
-        width: 90% !important;
-        font-size: 1em !important;
-    }
+   
 }

@@ -2,8 +2,9 @@ import React from 'react'
 import "../../node_modules/bootstrap/dist/css/bootstrap-grid.css"
 import Blogs from '../Components/Blogs'
 import Board from '../Components/Board'
-// import Events from '../Components/Events'
-// import Initiatives from '../Components/Initiatives'
+import Events from '../Components/Events'
+import Gallery from '../Components/Gallery'
+import Initiatives from '../Components/Initiatives'
 import Landing from '../Components/Landing'
 import Story from '../Components/Story'
 import '../Styles/Home.scss'
@@ -14,8 +15,9 @@ const Home = () => {
         <div>
             <Landing/>
             <Story/>
-            {/* <Initiatives/>
-            <Events/> */}
+            <Initiatives/>
+            <Gallery/>
+            <Events/>
             <Blogs/>
             <Board/>
 
