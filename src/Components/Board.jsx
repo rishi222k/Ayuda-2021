@@ -21,7 +21,7 @@ const Board = () => {
             <h5 class="Card-title">{data.name}</h5>
                 <div className="social-i">
                 <a href={data.inst}><Instagram size="25" color="#ffffff"/></a>
-                <a href={data.link}><Linkedin size="24" color="#ffffff"/></a>
+                <a href={data.link} id="linkedin"><Linkedin size="24" color="#ffffff"/></a>
                 </div>
             </div>
             <p class="Card-text">{data.desg}</p>

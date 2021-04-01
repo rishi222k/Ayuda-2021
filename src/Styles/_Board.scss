@@ -41,8 +41,15 @@
             padding-bottom: 0.5em;
             .social-i{
                 display: flex;
-                justify-content: space-between;
+                justify-content: flex-end;
                 width: 3.5em;
+                a[href="."]
+                {
+                  display: none;
+                }
+                #linkedin{
+                    margin-left: 0.7em;
+                }
             }
             .Card-title{
                 font-family: BNoodle;
