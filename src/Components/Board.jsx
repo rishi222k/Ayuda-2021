@@ -1,5 +1,5 @@
 import React from 'react'
-import Data from '../Data'
+import Data from '../BoardData'
 import {Instagram} from '@styled-icons/boxicons-logos/Instagram'
 import { Linkedin } from '@styled-icons/boxicons-logos'
 
@@ -15,16 +15,16 @@ const Board = () => {
         <div className="cards">
         {data1().map((data)=>
         <div className="Card">
-        <img class="Card-top" src={data.img} alt="Card cap" />
-        <div class="card-body">
+        <img className="Card-top" src={data.img} alt="Card cap" />
+        <div className="card-body">
             <div className="header">
-            <h5 class="Card-title">{data.name}</h5>
+            <h5 className="Card-title">{data.name}</h5>
                 <div className="social-i">
                 <a href={data.inst}><Instagram size="25" color="#ffffff"/></a>
                 <a href={data.link} id="linkedin"><Linkedin size="24" color="#ffffff"/></a>
                 </div>
-            </div>
-            <p class="Card-text">{data.desg}</p>
+            </div> 
+            <p className="Card-text">{data.desg}</p>
         </div>
         </div> )}
         </div>

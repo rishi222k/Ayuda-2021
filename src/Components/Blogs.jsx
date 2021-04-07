@@ -9,7 +9,7 @@ const Blogs = () => {
         <h1>BLOGSPOT</h1>
         </div>
         
-        <div class="scrollmenu">
+        <div className="scrollmenu">
             <div className="card">
                 <h2>WHERE <span> HEALING</span> COMES FROM <span> HEART</span></h2>
                 <p>In this current situation, the world requires definite energy to shatter the negative forces around us. We all stay home and keeping ourselves away from the pandemic virus...</p>
