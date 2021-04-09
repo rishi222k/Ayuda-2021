@@ -55,9 +55,7 @@ const Landing = () => {
             /></a>
             </div>
         </div>
-            
         </div>
-            
         </div>
     )
 }
