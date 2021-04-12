@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import logo from '../Images/Logohead.png'
 import {anim,revanim} from '../anim.js'
+import {Link} from 'react-scroll'
 
 const Nav = () => {
 
@@ -28,12 +29,24 @@ const Nav = () => {
             </div>
             <div className={`menu ${toggle ? 'menu-active':''}`}>
                 <div className="menu-links">
-                    <div className="menu-link"><a href="." onClick={Click}>Home</a></div>
-                    <div className="menu-link"><a href="." onClick={Click}>Our Story</a></div>
-                    <div className="menu-link"><a href="." onClick={Click}>Initiatives</a></div>
-                    <div className="menu-link"><a href="." onClick={Click}>Events</a></div>
-                    <div className="menu-link"><a href="." onClick={Click}>Board</a></div>
-                    <div className="menu-link"><a href="." onClick={Click}>Contact Us</a></div>
+                    <div className="menu-link">
+                    <Link to="Story" smooth={true} duration={1000} onClick={Click}>Our Story</Link>
+                    </div>
+                    <div className="menu-link">
+                    <Link to="Initiatives" smooth={true} duration={2000} onClick={Click}>Initiatives</Link>
+                    </div>
+                    <div className="menu-link">
+                    <Link to="Gallery" smooth={true} duration={2000} onClick={Click}>Gallery</Link>
+                    </div>
+                    <div className="menu-link">
+                    <Link to="Events" smooth={true} duration={2500} onClick={Click}>Events</Link>
+                    </div>
+                    <div className="menu-link">
+                    <Link to="Board" smooth={true} duration={2700} onClick={Click}>Board</Link>
+                    </div>
+                    <div className="menu-link">
+                    <Link to="ContactUs" smooth={true} duration={3000} onClick={Click}>Contact Us</Link>
+                    </div>
                 </div>
             </div>
         </nav>
