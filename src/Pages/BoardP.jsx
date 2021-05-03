@@ -10,6 +10,12 @@ const BoardP = () => {
     const data1 =()=>{
         return(Data[0].y2021)
     }
+    const data2 =()=>{
+        return(Data[1].y2020)
+    }
+    const data3 =()=>{
+        return(Data[2].y2019)
+    }
     return (
         <div className="BoardP">
              <div className="Bhead row">
@@ -32,7 +38,9 @@ const BoardP = () => {
             </div>
             <br/><br/><br/><br/><br/><br/>
             <div className="Bcards">
+
             <h1>2021-2022</h1>
+
             <div className="cards">
             {data1().map((data)=>
                 <div className="Card" key={data.id}>
@@ -53,8 +61,9 @@ const BoardP = () => {
             <br/><br/>
 
             <h1>2020-2021</h1>
+
             <div className="cards">
-            {data1().map((data)=>
+            {data2().map((data)=>
                 <div className="Card" key={data.id}>
                 <img className="Card-top" src={data.img} alt="Card cap" />
                 <div className="card-body">
@@ -73,8 +82,9 @@ const BoardP = () => {
             <br/><br/>
 
             <h1>2019-2020</h1>
+
             <div className="cards">
-            {data1().map((data)=>
+            {data3().map((data)=>
                 <div className="Card" key={data.id}>
                 <img className="Card-top" src={data.img} alt="Card cap" />
                 <div className="card-body">
