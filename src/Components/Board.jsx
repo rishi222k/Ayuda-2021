@@ -2,6 +2,7 @@ import React from 'react'
 import Data from '../BoardData'
 import {Instagram} from '@styled-icons/boxicons-logos/Instagram'
 import { Linkedin } from '@styled-icons/boxicons-logos'
+import {Link} from 'react-router-dom'
 
 const Board = () => {
     const data1 =()=>{
@@ -29,7 +30,7 @@ const Board = () => {
         </div> )}
         </div>
         <div className="row">
-        <a href="." id="See">See More</a>
+        <Link to="/boards" id="See">See More</Link>
         </div>
         <br/><br/>
         
