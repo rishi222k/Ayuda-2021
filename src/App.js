@@ -7,9 +7,10 @@ import ScrollTop from './ScrollTop'
 function App() {
   return (
     <div className="App">
+      
     <ScrollTop/>
-
     <Switch>
+
       <Route path="/" exact>
         <Home/>
       </Route>
