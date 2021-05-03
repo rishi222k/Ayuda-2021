@@ -6,7 +6,7 @@ const BoardP = () => {
     return (
         <div className="BoardP">
              <div className="Bhead row">
-                <div className="col-6">
+                <div className="col-6 contoverflow">
                     <div className="title">
                         <img src={logo} alt="ayudalogo"/>
                         <p>Ayuda</p>
@@ -18,8 +18,12 @@ const BoardP = () => {
                     <a href=".">View Here</a>
                     </div>
                 </div>
-                <div className="col-6"></div>
+                <div className="col-1"></div>
+                <div className="col-5 boardscroll">
+                    <div className="roll"></div>
+                </div>
             </div>
+            
         </div>
     )
 }
