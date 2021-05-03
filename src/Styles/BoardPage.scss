@@ -1,7 +1,82 @@
 
 .BoardP{
-    .Bhead{
+    .Bcards{
+        h1{
+            font-family: Bnoodle;
+            color: #FFCF00;
+            font-weight: 500;
+            font-size: 6em;
+            width: 100%;
+            text-align: center;
+            margin-bottom: 1em;
+        }
+        .cards{
+            width: 85%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-left: auto;
+            margin-right: auto;
+        }
         
+        .Card{
+            width: 17.5em;
+            height: 22em;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.151);
+            border-radius: 10px;
+            margin-bottom: 4em;
+            transition: all .5s ease;
+            img{
+                width: 100%;
+                height: 16.7em;
+                border-top-left-radius:10px ;
+                border-top-right-radius: 10px;
+                object-fit: cover;
+            }
+            .header{
+                display: flex;
+                justify-content: space-between;
+                padding: 0.8em;
+                padding-left: 0.9em;
+                padding-bottom: 0.5em;
+                .social-i{
+                    display: flex;
+                    justify-content: flex-end;
+                    width: 3.5em;
+                    a[href="."]
+                    {
+                      display: none;
+                    }
+                    #linkedin{
+                        margin-left: 0.7em;
+                    }
+                }
+                .Card-title{
+                    font-family: BNoodle;
+                    color: #FFCF00;
+                    font-weight: normal;
+                    font-size: 1.5em;
+                }
+            }
+            .Card-text{
+                font-family: raleway;
+                color: white;
+                font-size: 1em;
+                font-weight: 500;
+                padding-left: 0.9em;
+            }
+            .card-body{
+                height: 5.3em;
+                border-bottom-left-radius:10px ;
+                border-bottom-right-radius: 10px;
+                background-image: linear-gradient(#00277D, #00143F);
+            }
+        }
+    }
+    .Bhead{
+        min-height: 90vh;
         background-image:  linear-gradient(#000000, #001950);
         padding-left: 4em;
         .contoverflow{
@@ -24,7 +99,7 @@
         .content{
             h3,h4{
                 font-family: Bnoodle;
-                margin-top: 1.8em;
+                margin-top: 15vh;
                 font-size: 2.9em;
                 font-weight: 500;
                 color: white;
@@ -56,8 +131,13 @@
             color: #FFCF00;
             font-family: raleway;
             font-weight: 600;
+            outline: none;
             font-size: 1.1em;
             }   
+            a:hover{
+                background-color: #FFCF00;
+                color: white;
+            }
         }   
         .boardscroll{
             overflow: hidden;
@@ -77,4 +157,112 @@
               }
         }
     } 
+}
+
+@media only screen 
+and (min-width: 1400px){
+    .BoardP{
+        .Bhead{
+            .title{
+                img{
+                    width: 5em;
+                }
+                p{
+                    font-size: 2.8;
+                }
+            }
+            .content{
+                h3,h4{
+                    font-size: 3.2em;
+                    margin-top: 20vh;
+                }
+                h4{
+                    margin-top: 0.2em;
+                }
+                p{
+                    margin-top: 3em;
+                    margin-bottom: 3.5em;
+                }
+                
+            }
+        }
+    }
+}
+
+@media only screen 
+and (min-width: 1024px)
+and (max-width: 1080px){
+    .BoardP{
+        .Bhead{
+            min-height: 70vh;
+            .content{
+                h3,h4{
+                    font-size: 2.9em;
+                    margin-top: 20vh;
+                }
+                h4{
+                    margin-top: 0.3em;
+                }
+                p{
+                    margin-top: 4em;
+                    margin-bottom: 4.5em;
+                }
+                
+            }
+        }
+    }
+}
+
+@media only screen 
+and (min-width: 768px)
+and (max-width: 1023px){
+    .BoardP{
+        max-height: 80vh;
+        .Bhead{
+            .content{
+                h3,h4{
+                    font-size: 2.9em;
+                    margin-top: 20vh;
+                }
+                h4{
+                    margin-top: 0.3em;
+                }
+                p{
+                    margin-top: 4em;
+                    margin-bottom: 4.5em;
+                }
+                
+            }
+            .boardscroll{
+                display: none;
+            }
+        }
+    }
+}
+
+@media only screen 
+and (max-width: 767px){
+    .BoardP{
+        .Bhead{
+            padding-left: 3em;
+            .content{
+                h3,h4{
+                    font-size: 2.5em;
+                    margin-top: 15vh;
+                }
+                h4{
+                    margin-top: 0em;
+                }
+                p{
+                    font-size: 1em;
+                    margin-top: 3em;
+                    margin-bottom: 5em;
+                }
+                
+            }
+            .boardscroll{
+                display: none;
+            }
+        }
+    }
 }
