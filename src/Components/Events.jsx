@@ -115,7 +115,7 @@ const Events = () => {
             <div className="col-0 col-sm-0 col-md-0 col-lg-1">
             <div className="sidetitles"  ref={el => (titleref = el)}>
             {evndata.map((data)=>
-            <span id="Sidetitle">
+            <span id="Sidetitle" key={data.id}>
             <hr/>{data.sidetitle}</span>
             )}
             </div>
@@ -123,7 +123,7 @@ const Events = () => {
             <div className="col-12 col-sm-12 col-md-12 col-lg-6">
                 <div className="EventImages" ref={el => (imgref = el)}>
                 {evndata.map((data)=>
-                <img src={data.img} alt={data.title}/>
+                <img src={data.img} alt={data.title} key={data.id}/>
                 )}
                 </div>
                 <div className="controls">
@@ -137,7 +137,7 @@ const Events = () => {
             <div className="col-12 col-sm-12 col-md-12 col-lg-5">
                 <div className="descriptions" ref={el => (desref = el)}>
                 {evndata.map((data)=>
-                <div className="eventdes">
+                <div className="eventdes" key={data.id}>
                 <p className="evhead">
                 {data.title}</p>
                 <p className="evdesc">

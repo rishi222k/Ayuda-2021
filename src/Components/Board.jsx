@@ -14,7 +14,7 @@ const Board = () => {
         <h1>BOARD <span> MEMBERS</span></h1>
         <div className="cards">
         {data1().map((data)=>
-        <div className="Card">
+        <div className="Card" key={data.id}>
         <img className="Card-top" src={data.img} alt="Card cap" />
         <div className="card-body">
             <div className="header">
