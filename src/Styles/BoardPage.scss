@@ -1,0 +1,60 @@
+
+.BoardP{
+    .Bhead{
+        background-image:  linear-gradient(#000000, #001950);
+        padding-left: 4em;
+        padding-bottom: 4.5em;
+        .title{
+            display: flex;
+            align-items: center;
+            margin-top: 3em;
+            img{
+                width: 4.5em;
+                margin-right: 1.2em;
+            }
+            p{
+                font-size: 2.6em;
+                font-family: Bnoodle;
+                color: white;
+            }
+        }
+        .content{
+            h3,h4{
+                font-family: Bnoodle;
+                margin-top: 1.8em;
+                font-size: 2.9em;
+                font-weight: 500;
+                color: white;
+            }
+            h4{
+                font-size: 2.4em;
+                color: #FFCF00;
+                margin-top: 0.2em;
+            }
+            p{
+                font-family: raleway;
+                font-weight: 500;
+                color: white;
+                font-size: 1.1em;
+                width: 85%;
+                line-height: 1.6;
+                margin-top: 2em;
+                span{   
+                    color: #FFCF00;
+                }
+                margin-bottom: 3em;
+            }
+            a{
+            padding: 0.8em 2em;
+            text-decoration: none;
+            background-color: transparent;
+            border: #FFCF00 3px solid;
+            border-radius: 0px;
+            color: #FFCF00;
+            font-family: raleway;
+            font-weight: 600;
+            font-size: 1.1em;
+            }
+        }
+    } 
+}
