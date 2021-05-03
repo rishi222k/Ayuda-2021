@@ -181,7 +181,7 @@ const data=
             inst:"https://www.instagram.com/_gitanjalisingh",
             link:"https://www.linkedin.com/in/gitanjali-singh-1973161a0"},
 
-            { id: "10",
+            { id: "11",
             img : pic202011,
             name: "Ayush Bhatia",
             desg: "Design Head",
@@ -261,7 +261,7 @@ const data=
             inst:".",
             link:"."},
 
-            { id: "10",
+            { id: "11",
             img : pic201911,
             name: "Siddharth Dwivedi",
             desg: "Finance Head",

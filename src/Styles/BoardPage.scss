@@ -14,7 +14,7 @@
             width: 85%;
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-around;
+            justify-content: center;
             margin-left: auto;
             margin-right: auto;
         }
@@ -32,6 +32,8 @@
             box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.151);
             border-radius: 10px;
             margin-bottom: 4em;
+            margin-left: 2.2em;
+            margin-right: 2.2em;
             transition: all .5s ease;
             img{
                 width: 100%;
@@ -227,6 +229,12 @@ and (min-width: 768px)
 and (max-width: 1023px){
     .BoardP{
         max-height: 80vh;
+        .Bcards{
+            .Card{
+                margin-left: 1em;
+            margin-right: 1em;
+            }
+        }
         .Bhead{
             .content{
                 h3,h4{
@@ -252,6 +260,32 @@ and (max-width: 1023px){
 @media only screen 
 and (max-width: 767px){
     .BoardP{
+        .Bcards{
+            h1{
+                font-size: 4em;
+            }
+            .cards{
+                overflow: auto;
+                width: 100%;
+                white-space: nowrap;
+                display: block;
+                padding-left: 2em;
+            }
+            .Card{
+                display: inline-flex;
+                flex-direction: column;
+                margin-left: 1em;
+            margin-right: 1em;
+            }
+            .cards::-webkit-scrollbar 
+          {
+           display: none;
+          }
+          .Card:hover{
+            transform: translate3D(0,-1px,0) scale(1.0);
+            box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.151);
+          }
+        }
         .Bhead{
             padding-left: 3em;
             .content{
