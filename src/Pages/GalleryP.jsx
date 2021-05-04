@@ -25,6 +25,10 @@ const GalleryP = () => {
                     <div className="roll"></div>
                 </div>
             </div>
+            <br/><br/><br/><br/><br/><br/>
+            <div className="Gimages">
+                
+            </div>
         </div>
     )
 }
