@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../Images/Logohead.png'
 import {Link} from 'react-router-dom'
+import {Link as Scrolldown} from 'react-scroll'
 import Data from '../Gallerydata'
 import '../Styles/GalleryPage.scss'
 
@@ -17,7 +18,7 @@ const GalleryP = () => {
                     <h3>Gallery Images</h3>
                     <p>Every <span>Smile</span> has a story. With Each <span>Smile</span> we <span>capture,</span>  we hope to <span> Connect, Inspire & Empower.</span>
                     </p>
-                    <Link to="/">View Here</Link>
+                    <Scrolldown to="Gimages" smooth={true} duration={1000}>View Here</Scrolldown>
                     </div>
                 </div>
                 <div className="col-0 col-sm-0 col-md-0 col-lg-7 col-xl-7 galleryscroll">

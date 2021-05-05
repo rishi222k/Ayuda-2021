@@ -140,6 +140,14 @@ and (min-width: 1400px){
 and (min-width: 1024px)
 and (max-width: 1080px){
     .GalleryP{
+        .Gimages{
+            max-height: 5500px; 
+            width: 70%;
+            .frame{
+                width: 20em;
+                margin-bottom:1em;
+            }
+        }
         .Ghead{
             min-height: 70vh;
             .content{
@@ -165,6 +173,14 @@ and (min-width: 768px)
 and (max-width: 1023px){
     .GalleryP{
         max-height: 80vh;
+        .Gimages{
+            max-height: 5100px; 
+            width: 80%;
+            .frame{
+                width: 18em;
+                margin-bottom:1em;
+            }
+        }
         .Ghead{
             .content{
                 h3,h4{
@@ -190,6 +206,17 @@ and (max-width: 1023px){
 @media only screen 
 and (max-width: 767px){
     .GalleryP{
+        .Gimages{
+            max-height: 2800px; 
+            width: 92%;
+            .frame{
+                width: 10em;
+                margin-bottom:0em;
+                img{
+                    border-radius: 4px;
+                }
+            }
+        }
         .Ghead{
             padding-left: 3em;
             .content{
