@@ -17,6 +17,15 @@ const BoardP = () => {
     const data3 =()=>{
         return(Data[2].y2019)
     }
+    const data4 =()=>{
+        return(Data[3].y2018)
+    }
+    const data5 =()=>{
+        return(Data[4].y2017)
+    }
+    const data6 =()=>{
+        return(Data[5].y2016)
+    }
     return (
         <div className="BoardP">
              <div className="Bhead row">
@@ -86,6 +95,69 @@ const BoardP = () => {
 
             <div className="cards">
             {data3().map((data)=>
+                <div className="Card" key={data.id}>
+                <img className="Card-top" src={data.img} alt="Card cap" />
+                <div className="card-body">
+                    <div className="header">
+                    <h5 className="Card-title">{data.name}</h5>
+                        <div className="social-i">
+                        <a href={data.inst}><Instagram size="25" color="#ffffff"/></a>
+                        <a href={data.link} id="linkedin"><Linkedin size="24" color="#ffffff"/></a>
+                        </div>
+                    </div> 
+                    <p className="Card-text">{data.desg}</p>
+                </div>
+                </div> )}  
+            </div>
+            
+            <br/><br/>
+
+            <h1>2018-2019</h1>
+
+            <div className="cards">
+            {data4().map((data)=>
+                <div className="Card" key={data.id}>
+                <img className="Card-top" src={data.img} alt="Card cap" />
+                <div className="card-body">
+                    <div className="header">
+                    <h5 className="Card-title">{data.name}</h5>
+                        <div className="social-i">
+                        <a href={data.inst}><Instagram size="25" color="#ffffff"/></a>
+                        <a href={data.link} id="linkedin"><Linkedin size="24" color="#ffffff"/></a>
+                        </div>
+                    </div> 
+                    <p className="Card-text">{data.desg}</p>
+                </div>
+                </div> )}  
+            </div>
+            
+            <br/><br/>
+
+            <h1>2017-2018</h1>
+
+            <div className="cards">
+            {data5().map((data)=>
+                <div className="Card" key={data.id}>
+                <img className="Card-top" src={data.img} alt="Card cap" />
+                <div className="card-body">
+                    <div className="header">
+                    <h5 className="Card-title">{data.name}</h5>
+                        <div className="social-i">
+                        <a href={data.inst}><Instagram size="25" color="#ffffff"/></a>
+                        <a href={data.link} id="linkedin"><Linkedin size="24" color="#ffffff"/></a>
+                        </div>
+                    </div> 
+                    <p className="Card-text">{data.desg}</p>
+                </div>
+                </div> )}  
+            </div>
+            
+            <br/><br/>
+
+            <h1>2016-2017</h1>
+
+            <div className="cards">
+            {data6().map((data)=>
                 <div className="Card" key={data.id}>
                 <img className="Card-top" src={data.img} alt="Card cap" />
                 <div className="card-body">

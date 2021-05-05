@@ -1,3 +1,33 @@
+import pic20161 from './Images/Boards/pic2016-1.png'
+import pic20162 from './Images/Boards/pic2016-2.png'
+import pic20163 from './Images/Boards/pic2016-3.png'
+import pic20164 from './Images/Boards/pic2016-4.png'
+import pic20165 from './Images/Boards/pic2016-5.png'
+import pic20166 from './Images/Boards/pic2016-6.png'
+import pic20167 from './Images/Boards/pic2016-7.png'
+import pic20168 from './Images/Boards/pic2016-8.png'
+import pic20169 from './Images/Boards/pic2016-9.png'
+import pic201610 from './Images/Boards/pic2016-10.png'
+import pic20171 from './Images/Boards/pic2017-1.png'
+import pic20172 from './Images/Boards/pic2017-2.png'
+import pic20173 from './Images/Boards/pic2017-3.png'
+import pic20174 from './Images/Boards/pic2017-4.png'
+import pic20175 from './Images/Boards/pic2017-5.png'
+import pic20176 from './Images/Boards/pic2017-6.png'
+import pic20177 from './Images/Boards/pic2017-7.png'
+import pic20178 from './Images/Boards/pic2017-8.png'
+import pic20179 from './Images/Boards/pic2017-9.png'
+import pic201710 from './Images/Boards/pic2017-10.png'
+import pic20181 from './Images/Boards/pic2018-1.png'
+import pic20182 from './Images/Boards/pic2018-2.png'
+import pic20183 from './Images/Boards/pic2018-3.png'
+import pic20184 from './Images/Boards/pic2018-4.png'
+import pic20185 from './Images/Boards/pic2018-5.png'
+import pic20186 from './Images/Boards/pic2018-6.png'
+import pic20187 from './Images/Boards/pic2018-7.png'
+import pic20188 from './Images/Boards/pic2018-8.png'
+import pic20189 from './Images/Boards/pic2018-9.png'
+import pic201810 from './Images/Boards/pic2018-10.png'
 import pic20191 from './Images/Boards/pic2019-1.jpg'
 import pic20192 from './Images/Boards/pic2019-2.jpeg'
 import pic20193 from './Images/Boards/pic2019-3.jpg'
@@ -265,6 +295,225 @@ const data=
             img : pic201911,
             name: "Siddharth Dwivedi",
             desg: "Finance Head",
+            inst:".",
+            link:"."},
+        ]},
+        { key:4,
+            y2018:[
+
+            { id: "1",
+            img : pic20181,
+            name: "Naishika Reddy",
+            desg: "Chairperson",
+            inst:".",
+            link:"."},
+
+            { id: "2",
+            img : pic20182,
+            name: "Utkarsh Gandhi",
+            desg: "Vice Chairperson",
+            inst:".",
+            link:"."},
+
+            { id: "3",
+            img : pic20183,
+            name: "Divya Sharma",
+            desg: "Vice Chairperson",
+            inst:".",
+            link:"."},
+
+            { id: "4",
+            img : pic20184,
+            name: "Anagha Ramaswamy",
+            desg: "Internal Events Head",
+            inst:".",
+            link:"."},
+
+            { id: "5",
+            img : pic20185,
+            name: "Abhishekh Kothari",
+            desg: "Internal Events Head",
+            inst:".",
+            link:"."},
+
+            { id: "6",
+            img : pic20186,
+            name: "Ritambhara Puri",
+            desg: "Marketing & Promotions Head",
+            inst:".",
+            link:"."},
+
+            { id: "7",
+            img : pic20187,
+            name: "Saaksshi M J",
+            desg: "Design Head",
+            inst:".",
+            link:"."},
+
+            { id: "8",
+            img : pic20188,
+            name: "Kalpana Zutshi",
+            desg: "Editorial Head",
+            inst:".",
+            link:"."},
+
+            { id: "9",
+            img : pic20189,
+            name: "Arvind Ramachandran",
+            desg: "External Events Head",
+            inst:".",
+            link:"."},
+
+            { id: "10",
+            img : pic201810,
+            name: "Nitin S",
+            desg: "External Events Head ",
+            inst:".",
+            link:"."},
+        ]},
+        { key:5,
+            y2017:[
+
+            { id: "1",
+            img : pic20171,
+            name: "Naishika Reddy",
+            desg: "Chairperson",
+            inst:".",
+            link:"."},
+
+            { id: "2",
+            img : pic20172,
+            name: "Utkarsh Gandhi",
+            desg: "Vice Chairperson",
+            inst:".",
+            link:"."},
+
+            { id: "3",
+            img : pic20173,
+            name: "Divya Sharma",
+            desg: "Vice Chairperson",
+            inst:".",
+            link:"."},
+
+            { id: "4",
+            img : pic20174,
+            name: "Anagha Ramaswamy",
+            desg: "Internal Events Head",
+            inst:".",
+            link:"."},
+
+            { id: "5",
+            img : pic20175,
+            name: "Abhishekh Kothari",
+            desg: "Internal Events Head",
+            inst:".",
+            link:"."},
+
+            { id: "6",
+            img : pic20176,
+            name: "Ritambhara Puri",
+            desg: "Marketing & Promotions Head",
+            inst:".",
+            link:"."},
+
+            { id: "7",
+            img : pic20177,
+            name: "Saaksshi M J",
+            desg: "Design Head",
+            inst:".",
+            link:"."},
+
+            { id: "8",
+            img : pic20178,
+            name: "Kalpana Zutshi",
+            desg: "Editorial Head",
+            inst:".",
+            link:"."},
+
+            { id: "9",
+            img : pic20179,
+            name: "Arvind Ramachandran",
+            desg: "External Events Head",
+            inst:".",
+            link:"."},
+
+            { id: "10",
+            img : pic201710,
+            name: "Nitin S",
+            desg: "External Events Head ",
+            inst:".",
+            link:"."},
+        ]},
+        { key:6,
+            y2016:[
+
+            { id: "1",
+            img : pic20161,
+            name: "Naishika Reddy",
+            desg: "Chairperson",
+            inst:".",
+            link:"."},
+
+            { id: "2",
+            img : pic20162,
+            name: "Utkarsh Gandhi",
+            desg: "Vice Chairperson",
+            inst:".",
+            link:"."},
+
+            { id: "3",
+            img : pic20163,
+            name: "Divya Sharma",
+            desg: "Vice Chairperson",
+            inst:".",
+            link:"."},
+
+            { id: "4",
+            img : pic20164,
+            name: "Anagha Ramaswamy",
+            desg: "Internal Events Head",
+            inst:".",
+            link:"."},
+
+            { id: "5",
+            img : pic20165,
+            name: "Abhishekh Kothari",
+            desg: "Internal Events Head",
+            inst:".",
+            link:"."},
+
+            { id: "6",
+            img : pic20166,
+            name: "Ritambhara Puri",
+            desg: "Marketing & Promotions Head",
+            inst:".",
+            link:"."},
+
+            { id: "7",
+            img : pic20167,
+            name: "Saaksshi M J",
+            desg: "Design Head",
+            inst:".",
+            link:"."},
+
+            { id: "8",
+            img : pic20168,
+            name: "Kalpana Zutshi",
+            desg: "Editorial Head",
+            inst:".",
+            link:"."},
+
+            { id: "9",
+            img : pic20169,
+            name: "Arvind Ramachandran",
+            desg: "External Events Head",
+            inst:".",
+            link:"."},
+
+            { id: "10",
+            img : pic201610,
+            name: "Nitin S",
+            desg: "External Events Head ",
             inst:".",
             link:"."},
         ]},
