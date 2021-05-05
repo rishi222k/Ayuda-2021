@@ -42,10 +42,10 @@ const Nav = () => {
                     <Link to="Events" smooth={true} duration={2500} onClick={Click}>Events</Link>
                     </div>
                     <div className="menu-link">
-                    <Link to="Board" smooth={true} duration={2700} onClick={Click}>Board</Link>
+                    <Link to="Blogspot" smooth={true} duration={2700} onClick={Click}>Blogspot</Link>
                     </div>
                     <div className="menu-link">
-                    <Link to="ContactUs" smooth={true} duration={3000} onClick={Click}>Contact Us</Link>
+                    <Link to="Board" smooth={true} duration={3000} onClick={Click}>Board Members</Link>
                     </div>
                 </div>
             </div>

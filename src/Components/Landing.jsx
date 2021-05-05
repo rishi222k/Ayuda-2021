@@ -5,6 +5,7 @@ import {FacebookSquare} from '@styled-icons/boxicons-logos/FacebookSquare'
 import {Medium} from '@styled-icons/boxicons-logos/Medium'
 import {Instagram} from '@styled-icons/boxicons-logos/Instagram'
 import {Linkedin} from '@styled-icons/boxicons-logos/Linkedin'
+import {Link} from 'react-scroll'
 
 const Landing = () => {
     return (
@@ -23,8 +24,8 @@ const Landing = () => {
         <p>Bring out the change in society by spreading hands to help the unprivileged children and other backward communities.</p>
         </div>
         <div className=" titles btns">
-            <a href="." className="Learn">Learn More</a>
-            <a href="." className="touch">Get in Touch</a>
+            <Link to="Story" className="Learn" smooth={true} duration={1000}>Learn More</Link>
+            <Link to="ContactUs" className="touch"smooth={true} duration={3000}>Get in Touch</Link>
         </div>
         </div>
         <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
