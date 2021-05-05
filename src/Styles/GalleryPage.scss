@@ -207,11 +207,11 @@ and (max-width: 1023px){
 and (max-width: 767px){
     .GalleryP{
         .Gimages{
-            max-height: 2800px; 
-            width: 92%;
+            max-height: 3300px; 
+            width: 100%;
             .frame{
-                width: 10em;
-                margin-bottom:0em;
+                width: 12.4em;
+                margin:0.2em;
                 img{
                     border-radius: 4px;
                 }
@@ -239,4 +239,35 @@ and (max-width: 767px){
             }
         }
     }
+}
+
+@media only screen 
+and (min-width:355px)
+and (max-width: 400px){
+    .GalleryP{
+        .Gimages{
+            max-height: 2900px; 
+            width: 100%;
+            .frame{
+                width: 10.8em;
+                margin:0.2em;
+                img{
+                    border-radius: 4px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen 
+and (max-width: 354px){
+    .GalleryP{
+        .Gimages{
+            max-height: 2500px; 
+            .frame{
+                width: 9.5em;
+            }
+        }
+    }
+
 }

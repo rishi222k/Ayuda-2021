@@ -25,7 +25,7 @@ const GalleryP = () => {
                     <div className="roll"></div>
                 </div>
             </div>
-            <br/><br/><br/><br/><br/><br/>
+            <br/><br/><br/>
             <div className="Gimages">
             {Data.map((data)=>
             <div className="frame">
