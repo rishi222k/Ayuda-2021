@@ -1,5 +1,5 @@
 .Initiatives{
-    height: 110vh;
+    
     .title{
         display: flex;
         flex-direction: row-reverse;
@@ -8,11 +8,37 @@
         font-family: raleway;
         font-weight: 700;
         font-size: 8em;
+        padding-bottom: 0.6em;
         color: #CECECE;
-        padding-bottom: 1em;
         white-space: nowrap;
         transform: translateX(30px);
         -webkit-transform: translateX(30px);
+    }
+    .initiative-cards{
+        display: block;
+        margin-left: auto;  
+        margin-right: auto;
+        width: 80%;
+        height: 32vw;
+        img{
+            cursor: pointer;
+        }
+    }
+    .arrows{
+        width: 105%;
+        margin-bottom: 7em;
+        display: flex;
+        margin-top: 1em;
+        justify-content: center;
+        svg{
+            color:#0034a3;
+            margin-left: 0.5em;
+            margin-right: 0.5em;
+            cursor: pointer;
+        }
+    }
+    .css-1qzevvg{
+        display: none;
     }
 }
 
@@ -21,9 +47,17 @@ and (min-width: 768px)
 and (max-width: 1023px){
     .Initiatives{
         h1{
+            padding-bottom: 1em;
             span{
                 display: none;
             }
+        }
+        .initiative-cards{
+            width: 80%;
+            height: 43vw;
+        }
+        .arrows{
+            margin-bottom: 10em;
         }
     }
 }
@@ -33,6 +67,7 @@ and (max-width: 1023px){
 and (max-width: 767px){
     .Initiatives{
         h1{
+            padding-bottom: 1.3em;
             font-size: 4.8em;
             transform: translateX(65px);
             -webkit-transform: translateX(65px);
@@ -40,6 +75,11 @@ and (max-width: 767px){
                 display: none;
             }
         }
+        .initiative-cards{
+            width: 10%;
+            height: 63vw;
+        }
+        
     }
 }
 
