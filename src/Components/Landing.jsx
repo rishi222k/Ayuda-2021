@@ -31,25 +31,26 @@ const Landing = () => {
         <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
             <img src={Main} alt="Mainimg" id="Mainimg"/>
             <div className="social">
-            <a href="."><FacebookSquare
+            <a href="https://www.facebook.com/ngoayuda/" target="_blank" rel="noopener noreferrer"> <FacebookSquare
                 size="32"
                 color="#888888"
                 className="icon"
             /></a>
             <br/>
-            <a href="."><Instagram
+            <a href="https://www.instagram.com/ayuda.ngo/" target="_blank" rel="noopener noreferrer"> <Instagram
                 size="32"
                 color="#888888"
                 className="icon"
             /></a>
             <br/>
-            <a href="."><Linkedin 
+            <a href="https://www.linkedin.com/company/ayuda-ngo/" target="_blank" rel="noopener noreferrer"><Linkedin 
                 size="30"
                 color="#888888"
                 className="icon"
             /></a>
             <br/>
-            <a href="."><Medium 
+            <a href="https://ngoayuda.medium.com/" target="_blank" rel="noopener noreferrer">
+            <Medium 
                 size="30"
                 color="#888888"
                 className="icon"
