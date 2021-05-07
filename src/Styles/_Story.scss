@@ -13,6 +13,7 @@
     }
     img{
         width: 27em;
+        object-fit: contain;
     }
     .row .col-lg-6:nth-child(2){
         display: flex;
