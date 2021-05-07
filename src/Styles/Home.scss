@@ -41,7 +41,12 @@ html, body {
   a{
       white-space: nowrap;
   }
-
+  img{
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
   @media only screen 
 and (min-width: 768px)
 and (max-width: 1023px){
