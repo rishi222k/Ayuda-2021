@@ -4,6 +4,9 @@ import social from './Images/Events/social.jpg'
 import peace from './Images/Events/peace.jpg'
 import talk from './Images/Events/mind-talks.jpg'
 import craft from './Images/Events/craftsman.jpg'
+import fete from './Images/Events/Feté.jpg'
+import dream from './Images/Events/Dreams.jpg'
+import bloom from './Images/Events/Life-Bloom.jpg'
 
 const evndata=
 [
@@ -47,6 +50,27 @@ const evndata=
         img : craft,
         title: "Craftsmen", 
         sidetitle:"Craftsmen",
+        desc: "Students had the opportunity to showcase their talent, concern and creativity regarding various topics in the form of paintings, sketches, photographs, poems, shayari and digital art.",
+    },
+    {
+        id: "7",
+        img : fete,
+        title: "Ayuda Feté", 
+        sidetitle:"Feté",
+        desc: "Students had the opportunity to showcase their talent, concern and creativity regarding various topics in the form of paintings, sketches, photographs, poems, shayari and digital art.",
+    },
+    {
+        id: "8",
+        img : dream,
+        title: "Dreams & Themes", 
+        sidetitle:"Dreams",
+        desc: "Students had the opportunity to showcase their talent, concern and creativity regarding various topics in the form of paintings, sketches, photographs, poems, shayari and digital art.",
+    },
+    {
+        id: "9",
+        img : bloom,
+        title: "Life in Bloom", 
+        sidetitle:"Healthtalk",
         desc: "Students had the opportunity to showcase their talent, concern and creativity regarding various topics in the form of paintings, sketches, photographs, poems, shayari and digital art.",
     },
 ]

@@ -130,7 +130,7 @@ const Events = () => {
                     <ArrowLeftSquareFill size="35" onClick={prev} 
                     className={`${mul===0?'disable':'nondis'}`}/>
                     <ArrowRightSquareFill size="35" onClick={next}
-                    className={`${mul===5?'disable':'nondis'}`}
+                    className={`${mul===8?'disable':'nondis'}`}
                     />
                 </div>
             </div>
