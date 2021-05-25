@@ -57,21 +57,21 @@ const evndata=
         img : fete,
         title: "Ayuda Feté", 
         sidetitle:"Feté",
-        desc: "Students had the opportunity to showcase their talent, concern and creativity regarding various topics in the form of paintings, sketches, photographs, poems, shayari and digital art.",
+        desc: "On the account of International Day of Families, Ayuda family reminisced the journey of the NGO evolving into what it is today with the previous boards. Moreover, an Instagram campaign was also organized to spread love with #ayudafete where messages to close ones were reposted on our story.",
     },
     {
         id: "8",
         img : dream,
         title: "Dreams & Themes", 
         sidetitle:"Dreams",
-        desc: "Students had the opportunity to showcase their talent, concern and creativity regarding various topics in the form of paintings, sketches, photographs, poems, shayari and digital art.",
+        desc: "A fun, engaging session was conducted with the children of Rainbow Homes on the account of World Children's Day. As a part of Project Muskaan, the session brimmed with lively activities and the gleeful laughter of children!",
     },
     {
         id: "9",
         img : bloom,
         title: "Life in Bloom", 
         sidetitle:"Healthtalk",
-        desc: "Students had the opportunity to showcase their talent, concern and creativity regarding various topics in the form of paintings, sketches, photographs, poems, shayari and digital art.",
+        desc: "On account of World Health Day, Dr. Divya Sharma MBBS,MD (Dermatology, Leprology and Venereal Disease) gave an insightful session on maintaining healthy skin and hair in times of the pandemic. The audience were excited to bust myths about skin and hair care alongside our speaker as they gained beneficial knowledge about the same.",
     },
 ]
 
