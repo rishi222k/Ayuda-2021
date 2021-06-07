@@ -53,7 +53,7 @@ const BoardP = () => {
 
             <div className="cards">
             {data1().map((data)=>
-                <div className="Card" key={data.id}>
+                <div className="Card" key={data.id} loading="lazy">
                 <img className="Card-top" src={data.img} alt="Card cap" />
                 <div className="card-body">
                     <div className="header">
