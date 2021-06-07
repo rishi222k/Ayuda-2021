@@ -1,3 +1,31 @@
+import pic20131 from './Images/Boards/2013- Founder Board/Adhiraj_2013.jpeg'
+import pic20132 from './Images/Boards/2013- Founder Board/Aman sinha_2013.jfif'
+import pic20133 from './Images/Boards/2013- Founder Board/Bhavya Vaidya_2013.jpeg'
+import pic20134 from './Images/Boards/2013- Founder Board/Geetika_2013.jpeg'
+import pic20135 from './Images/Boards/2013- Founder Board/RS Arun_2013.jfif'
+import pic20136 from './Images/Boards/2013- Founder Board/Udit_2013.jpeg'
+import pic20141 from './Images/Boards/2014-2015/Arun_2014.jfif'
+import pic20142 from './Images/Boards/2014-2015/Dhanashree_2014.jfif'
+import pic20143 from './Images/Boards/2014-2015/Divya jain_2014.jfif'
+import pic20144 from './Images/Boards/2014-2015/Karttik_2014.jfif'
+import pic20145 from './Images/Boards/2014-2015/Kevin_2014.jfif'
+import pic20146 from './Images/Boards/2014-2015/Komal_2014.jfif'
+import pic20147 from './Images/Boards/2014-2015/Mahesan_2014.jfif'
+import pic20148 from './Images/Boards/2014-2015/Pradeep_2014.jfif'
+import pic20149 from './Images/Boards/2014-2015/Rohit_2014.jfif'
+import pic201410 from './Images/Boards/2014-2015/Shubam_2014.jfif'
+import pic201411 from './Images/Boards/2014-2015/Srivatsan_2014.jfif'
+import pic20151 from './Images/Boards/2015-2016/2015_Jeevana.jfif'
+import pic20152 from './Images/Boards/2015-2016/2015_Linga.jfif'
+import pic20153 from './Images/Boards/2015-2016/2015_Nikhil.jfif'
+import pic20154 from './Images/Boards/2015-2016/2015_Pooja.jfif'
+import pic20155 from './Images/Boards/2015-2016/2015_Saibalaji.jfif'
+import pic20156 from './Images/Boards/2015-2016/2015_Sankeerth.jfif'
+import pic20157 from './Images/Boards/2015-2016/2015_Saurav.jfif'
+import pic20158 from './Images/Boards/2015-2016/2015_Sudarshan.jfif'
+import pic20159 from './Images/Boards/2015-2016/2015_Suheta.jfif'
+import pic201510 from './Images/Boards/2015-2016/2015_swadha.jfif'
+import pic201511 from './Images/Boards/2015-2016/2015_Waquar.jfif'
 import pic20161 from './Images/Boards/2016-2017/2016_Lakshay.jfif'
 import pic20162 from './Images/Boards/2016-2017/2016_Zishan.jfif'
 import pic20163 from './Images/Boards/2016-2017/2016_Bharat Damodaran.jfif'
@@ -514,6 +542,211 @@ const data=
             img : pic201610,
             name: "Tushar Sharma",
             desg: "Publicity and Marketing",
+            inst:".",
+            link:"."},
+        ]},
+        { key:7,
+            y2015:[
+
+            { id: "1",
+            img : pic20151,
+            name: "Lakshay Jain",
+            desg: "Chairperson",
+            inst:".",
+            link:"."},
+
+            { id: "2",
+            img : pic20152,
+            name: "Zishan Ahmad",
+            desg: "General Secretary",
+            inst:".",
+            link:"."},
+
+            { id: "3",
+            img : pic20153,
+            name: "Bharat Damodaran",
+            desg: "Vice Chairperson",
+            inst:".",
+            link:"."},
+
+            { id: "4",
+            img : pic20154,
+            name: "Naman Sagar",
+            desg: "Internal Events Head",
+            inst:".",
+            link:"."},
+
+            { id: "5",
+            img : pic20155,
+            name: "Yarin Sachdeva",
+            desg: "Treasurer",
+            inst:".",
+            link:"."},
+
+            { id: "6",
+            img : pic20156,
+            name: "Ashutosh Mishra",
+            desg: "Public Relations",
+            inst:".",
+            link:"."},
+
+            { id: "7",
+            img : pic20157,
+            name: "Neha Agnihotri",
+            desg: "HR",
+            inst:".",
+            link:"."},
+
+            { id: "8",
+            img : pic20158,
+            name: "Nishtha Painul",
+            desg: "Editorial Head",
+            inst:".",
+            link:"."},
+
+            { id: "9",
+            img : pic20159,
+            name: "Soumyadipto Santra",
+            desg: "Events Head",
+            inst:".",
+            link:"."},
+
+            { id: "10",
+            img : pic201510,
+            name: "Tushar Sharma",
+            desg: "Publicity and Marketing",
+            inst:".",
+            link:"."},
+
+            { id: "10",
+            img : pic201511,
+            name: "Tushar Sharma",
+            desg: "Publicity and Marketing",
+            inst:".",
+            link:"."},
+        ]},
+        { key:8,
+            y2014:[
+
+            { id: "1",
+            img : pic20141,
+            name: "Lakshay Jain",
+            desg: "Chairperson",
+            inst:".",
+            link:"."},
+
+            { id: "2",
+            img : pic20142,
+            name: "Zishan Ahmad",
+            desg: "General Secretary",
+            inst:".",
+            link:"."},
+
+            { id: "3",
+            img : pic20143,
+            name: "Bharat Damodaran",
+            desg: "Vice Chairperson",
+            inst:".",
+            link:"."},
+
+            { id: "4",
+            img : pic20144,
+            name: "Naman Sagar",
+            desg: "Internal Events Head",
+            inst:".",
+            link:"."},
+
+            { id: "5",
+            img : pic20145,
+            name: "Yarin Sachdeva",
+            desg: "Treasurer",
+            inst:".",
+            link:"."},
+
+            { id: "6",
+            img : pic20146,
+            name: "Ashutosh Mishra",
+            desg: "Public Relations",
+            inst:".",
+            link:"."},
+
+            { id: "7",
+            img : pic20147,
+            name: "Neha Agnihotri",
+            desg: "HR",
+            inst:".",
+            link:"."},
+
+            { id: "8",
+            img : pic20148,
+            name: "Nishtha Painul",
+            desg: "Editorial Head",
+            inst:".",
+            link:"."},
+
+            { id: "9",
+            img : pic20149,
+            name: "Soumyadipto Santra",
+            desg: "Events Head",
+            inst:".",
+            link:"."},
+
+            { id: "10",
+            img : pic201410,
+            name: "Tushar Sharma",
+            desg: "Publicity and Marketing",
+            inst:".",
+            link:"."},
+
+            { id: "10",
+            img : pic201411,
+            name: "Tushar Sharma",
+            desg: "Publicity and Marketing",
+            inst:".",
+            link:"."},
+        ]},
+        { key:9,
+            y2013:[
+
+            { id: "1",
+            img : pic20131,
+            name: "Lakshay Jain",
+            desg: "Chairperson",
+            inst:".",
+            link:"."},
+
+            { id: "2",
+            img : pic20132,
+            name: "Zishan Ahmad",
+            desg: "General Secretary",
+            inst:".",
+            link:"."},
+
+            { id: "3",
+            img : pic20133,
+            name: "Bharat Damodaran",
+            desg: "Vice Chairperson",
+            inst:".",
+            link:"."},
+
+            { id: "4",
+            img : pic20134,
+            name: "Naman Sagar",
+            desg: "Internal Events Head",
+            inst:".",
+            link:"."},
+
+            { id: "5",
+            img : pic20135,
+            name: "Yarin Sachdeva",
+            desg: "Treasurer",
+            inst:".",
+            link:"."},
+
+            { id: "6",
+            img : pic20136,
+            name: "Ashutosh Mishra",
+            desg: "Public Relations",
             inst:".",
             link:"."},
         ]},

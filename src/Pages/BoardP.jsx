@@ -26,6 +26,15 @@ const BoardP = () => {
     const data6 =()=>{
         return(Data[5].y2016)
     }
+    const data7 =()=>{
+        return(Data[6].y2015)
+    }
+    const data8 =()=>{
+        return(Data[7].y2014)
+    }
+    const data9 =()=>{
+        return(Data[8].y2013)
+    }
     return (
         <div className="BoardP">
              <div className="Bhead row">
@@ -173,11 +182,12 @@ const BoardP = () => {
                 </div> )}  
             </div>
 
+            <br/><br/>
 
             <h1>2015-2016</h1>
 
             <div className="cards">
-            {data6().map((data)=>
+            {data7().map((data)=>
                 <div className="Card" key={data.id}>
                 <img className="Card-top" src={data.img} alt="Card cap" />
                 <div className="card-body">
@@ -193,11 +203,12 @@ const BoardP = () => {
                 </div> )}  
             </div>
 
-            
+            <br/><br/>
+
             <h1>2014-2015</h1>
 
             <div className="cards">
-            {data6().map((data)=>
+            {data8().map((data)=>
                 <div className="Card" key={data.id}>
                 <img className="Card-top" src={data.img} alt="Card cap" />
                 <div className="card-body">
@@ -213,11 +224,12 @@ const BoardP = () => {
                 </div> )}  
             </div>
 
+            <br/><br/>
 
             <h1>2013-2014</h1>
 
             <div className="cards">
-            {data6().map((data)=>
+            {data9().map((data)=>
                 <div className="Card" key={data.id}>
                 <img className="Card-top" src={data.img} alt="Card cap" />
                 <div className="card-body">
