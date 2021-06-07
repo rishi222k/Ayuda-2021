@@ -1,13 +1,13 @@
-import pic20161 from './Images/Boards/pic2016-1.png'
-import pic20162 from './Images/Boards/pic2016-2.png'
-import pic20163 from './Images/Boards/pic2016-3.png'
-import pic20164 from './Images/Boards/pic2016-4.png'
-import pic20165 from './Images/Boards/pic2016-5.png'
-import pic20166 from './Images/Boards/pic2016-6.png'
-import pic20167 from './Images/Boards/pic2016-7.png'
-import pic20168 from './Images/Boards/pic2016-8.png'
-import pic20169 from './Images/Boards/pic2016-9.png'
-import pic201610 from './Images/Boards/pic2016-10.png'
+import pic20161 from './Images/Boards/2016-2017/2016_Lakshay.jfif'
+import pic20162 from './Images/Boards/2016-2017/2016_Zishan.jfif'
+import pic20163 from './Images/Boards/2016-2017/2016_Bharat Damodaran.jfif'
+import pic20164 from './Images/Boards/2016-2017/2016_Naman Sagar.jfif'
+import pic20165 from './Images/Boards/2016-2017/2016_Yarin.jfif'
+import pic20166 from './Images/Boards/2016-2017/2016_Ashutosh.jfif'
+import pic20167 from './Images/Boards/2016-2017/2016_Neha.jfif'
+import pic20168 from './Images/Boards/2016-2017/2016_Nishtha.jfif'
+import pic20169 from './Images/Boards/2016-2017/2016_Soumyadipto.jfif'
+import pic201610 from './Images/Boards/2016-2017/2016_Tushar.jfif'
 import pic20171 from './Images/Boards/pic2017-1.png'
 import pic20172 from './Images/Boards/pic2017-2.png'
 import pic20173 from './Images/Boards/pic2017-3.png'
@@ -449,42 +449,42 @@ const data=
 
             { id: "1",
             img : pic20161,
-            name: "Lakshay",
+            name: "Lakshay Jain",
             desg: "Chairperson",
             inst:".",
             link:"."},
 
             { id: "2",
             img : pic20162,
-            name: "Lishan Ahmad",
+            name: "Zishan Ahmad",
             desg: "General Secretary",
             inst:".",
             link:"."},
 
             { id: "3",
             img : pic20163,
-            name: "Bharat",
+            name: "Bharat Damodaran",
             desg: "Vice Chairperson",
             inst:".",
             link:"."},
 
             { id: "4",
             img : pic20164,
-            name: "Naman",
+            name: "Naman Sagar",
             desg: "Internal Events Head",
             inst:".",
             link:"."},
 
             { id: "5",
             img : pic20165,
-            name: "Yatin Sachdeva",
+            name: "Yarin Sachdeva",
             desg: "Treasurer",
             inst:".",
             link:"."},
 
             { id: "6",
             img : pic20166,
-            name: "Ashutosh",
+            name: "Ashutosh Mishra",
             desg: "Public Relations",
             inst:".",
             link:"."},
@@ -498,7 +498,7 @@ const data=
 
             { id: "8",
             img : pic20168,
-            name: "Nishtha",
+            name: "Nishtha Painul",
             desg: "Editorial Head",
             inst:".",
             link:"."},
@@ -512,7 +512,7 @@ const data=
 
             { id: "10",
             img : pic201610,
-            name: "Tushar",
+            name: "Tushar Sharma",
             desg: "Publicity and Marketing",
             inst:".",
             link:"."},
