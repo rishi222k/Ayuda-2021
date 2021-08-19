@@ -8,6 +8,7 @@ import Gallery from '../Components/Gallery'
 import Initiatives from '../Components/Initiatives'
 import Landing from '../Components/Landing'
 import Story from '../Components/Story'
+import Video from '../Components/Video'
 import '../Styles/Home.scss'
 
 
@@ -16,6 +17,7 @@ const Home = () => {
         <div>
             <Landing/>
             <Story/>
+            <Video/>
             <Initiatives/>
             <Gallery/>
             <Events/>

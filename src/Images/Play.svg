@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="141" height="143" viewBox="0 0 141 143">
+  <defs>
+    <filter id="Polygon_1" x="41" y="33" width="76" height="84" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Play" transform="translate(-890 -11041)">
+    <g id="Ellipse_68" data-name="Ellipse 68" transform="translate(890 11041)" fill="none" stroke="#fff" stroke-width="6">
+      <ellipse cx="70.5" cy="71.5" rx="70.5" ry="71.5" stroke="none"/>
+      <ellipse cx="70.5" cy="71.5" rx="67.5" ry="68.5" fill="none"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 890, 11041)" filter="url(#Polygon_1)">
+      <path id="Polygon_1-2" data-name="Polygon 1" d="M27.785,9.166a6,6,0,0,1,10.43,0L60.9,49.033A6,6,0,0,1,55.683,58H10.317A6,6,0,0,1,5.1,49.033Z" transform="translate(108 39) rotate(90)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
