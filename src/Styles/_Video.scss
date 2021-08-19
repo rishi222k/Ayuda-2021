@@ -23,12 +23,14 @@
     #play{
         background-color: transparent;
         border: none;
+        transition: 0.3s;
         img{
             width: 6em;
         }
     }
     #play:hover{
         cursor: pointer;
+        transform: scale(1.12);
     }
     .react-player__preview{
         border-radius: 10px;
@@ -39,20 +41,51 @@
 @media only screen 
 and (min-width: 1024px)
 and (max-width: 1080px){
-
+    .Vid{
+        .videot{
+            width: 950px !important;
+            margin-bottom: 5em;
+        }
+    }
 }
 
 @media only screen 
 and (min-width: 768px)
 and (max-width: 1023px){
-
+    .Vid{
+        .videot{
+            width: 700px !important;
+            height: 350px !important;
+            margin-bottom: 5em;
+        }
+    }
 }
 @media only screen and (max-width: 767px){
-
+    .Vid{
+        .videot{
+            width: 380px !important;
+            height: 210px !important;
+            margin-bottom: 2em;
+        }
+    }
 }
    
 @media only screen 
 and (min-width: 350px)
 and (max-width: 400px){
-    
+    .Vid{
+        .videot{
+            width: 350px !important;
+            height: 200px !important;
+        }
+    }
+}
+
+@media only screen 
+and (max-width: 349px){
+    .Vid{
+        .videot{
+            width: 300px !important;
+        }
+    }
 }
